@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.df {
+    display: flex;
+}
+
+.justify--content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify--content-between {
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Geometria', sans-serif!important;
+    font-weight: 700!important;
+    font-size: 18px!important;
+    color: #2A2A2A!important;
+    width: 119px;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+.menu {
+    flex-direction: row;
+    gap: 45px;
+    margin: 0 20px;
+}
+
+.menu li {
+    font-weight: 600;
+    font-size: 14px;
+    color: #8C8C8C;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.active {
+    color: #1946BA!important;
+}
+
+.btn-wrapper {
+    flex-direction: row;
+    gap: 35px;
+}
+
+.align-items-start{
+    align-items: start!important;
+}
+
+.nav {
+    display: none;
+}
+
+.btn-wrapper h4 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #2A2A2A;
+}
+
+.mySwiper2{
+    display: none;
+}
+
+.mySwiper1 {
+    display: block;
+}
+
+.open-btn {
+    display: none;
+}
+
+.desc {
+    display: flex;
+}
+
+.medias{
+    display: none!important;
+}
+
+.page_1 {
+    margin: 20px 0;
+}
+
+.btn-wrapper button {
+    background: #1946BA;
+    box-shadow: 0 15px 30px rgba(25, 70, 186, 0.2);
+    width: 231px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.text-wrapper h1 {
+    width: 541px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2A2A2A;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 75px;
+    width: 388px;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.text {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 68px 50px;
+}
+
+.content-text {
+    width: 690px;
+    height: 496px;
+    background: #1946BA;
+}
+
+.images {
+    background-image: url("./images/background-mony.png");
+    background-position: right -198%;
+    background-repeat: no-repeat;
+    background-size: 62%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content {
+    max-width: 82%;
+}
+
+form input {
+    width: 505px;
+    border: 1px solid #DEDEDE;
+    padding: 7px 15px;
+    color: #000;
+    outline: none;
+}
+
+form button {
+    width: 290px;
+    height: 40px;
+    color: #ffff;
+    background: #1946BA;
+    box-shadow: 0px 15px 30px rgba(25, 70, 186, 0.2);
+    margin: 20px 0;
+    border: none;
+}
